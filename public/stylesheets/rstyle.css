@@ -1,0 +1,121 @@
+/*
+
+#2B2D42 dark blue
+#8D99AE light blue
+ #EDF2F4 blue/white
+#EF233C red
+*/
+
+/* Global Styles
+****************/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+h1,h2 {
+    font-family: 'Caveat', cursive;
+   font-weight: 400;
+}
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+header {
+    position: relative;
+}
+header h1 {
+    
+    font-size:80px;
+}
+a {
+    color: #EF233C;   
+}
+
+
+a:hover {
+    text-decoration:none; 
+}
+.content-wraper
+{
+    max-width:950px;
+    margin: 0 auto;
+    padding:50px;  
+}
+.btn {
+    text-decoration: none;
+    background-color:red;
+    color:white;
+    position:relative;
+    padding:1em;
+}
+.down {
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+/* header and fotter styles
+------------------------------*/
+.profile-img {
+    
+    width:200px;
+    border-radius:50%;
+    float:left;
+}
+header, footer {
+    background: #2B2D42;
+    color: #8D99AE;
+     background: linear-gradient(rgba(43,45,66, 0.8),
+                 rgba(43,45,66, 0.9)), 
+                 url(../images/header.jpg) no-repeat;
+    background-size: cover;
+}
+/* header */
+header h1, header h2 {
+    color:#EDF2F4;
+   text-align: right;
+    margin:0;
+}
+
+/* footer */
+footer {
+  text-align:center;
+     background: linear-gradient(rgba(43,45,66, 0.8),
+                 rgba(43,45,66, 0.9)), 
+                 url(../images/social.jpg) no-repeat;
+    background-size: cover;
+}
+footer a {
+    padding:10px;
+    display:inline-block;
+}
+/* Work Experience 
+--------------------*/
+
+.work {
+    
+    background: #EDF2F4;
+     background: linear-gradient(rgba(237,242,244, 0.8),
+                 rgba(237,242,244, 0.5)), 
+                 url(../images/work.jpg) no-repeat;
+    background-size: cover;
+}
+
+/*Education
+--------------*/
+
+.edu {
+    
+    background: #8D99AE;
+    background: linear-gradient(rgba(141,153,174, 0.8),
+                 rgba(141,153,174, 0.5)), 
+                 url(../images/toronto.jpg) no-repeat;
+    background-size: cover;
+}
